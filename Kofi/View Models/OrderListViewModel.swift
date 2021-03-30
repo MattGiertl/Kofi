@@ -8,7 +8,7 @@
 import Foundation
 
 class OrderListViewModel: ObservableObject {
-    var orders = [OrderViewModel]()
+    @Published var orders = [OrderViewModel]()
     
     init() {
         fetchOrders()
