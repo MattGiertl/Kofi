@@ -14,6 +14,7 @@
 		B8F50A652613590D00175B00 /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8F50A642613590D00175B00 /* Order.swift */; };
 		B8F50A692613594500175B00 /* Coffee.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8F50A682613594500175B00 /* Coffee.swift */; };
 		B8F50A6E26135B5000175B00 /* WebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8F50A6D26135B5000175B00 /* WebService.swift */; };
+		B8F50A7226135F1900175B00 /* OrderListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8F50A7126135F1900175B00 /* OrderListViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		B8F50A642613590D00175B00 /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
 		B8F50A682613594500175B00 /* Coffee.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coffee.swift; sourceTree = "<group>"; };
 		B8F50A6D26135B5000175B00 /* WebService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebService.swift; sourceTree = "<group>"; };
+		B8F50A7126135F1900175B00 /* OrderListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderListViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 		B8F50A52261357EB00175B00 /* Kofi */ = {
 			isa = PBXGroup;
 			children = (
+				B8F50A7026135EF400175B00 /* View Models */,
 				B8F50A6C26135B4000175B00 /* Services */,
 				B8F50A632613590300175B00 /* Models */,
 				B8F50A53261357EB00175B00 /* KofiApp.swift */,
@@ -92,6 +95,14 @@
 				B8F50A6D26135B5000175B00 /* WebService.swift */,
 			);
 			path = Services;
+			sourceTree = "<group>";
+		};
+		B8F50A7026135EF400175B00 /* View Models */ = {
+			isa = PBXGroup;
+			children = (
+				B8F50A7126135F1900175B00 /* OrderListViewModel.swift */,
+			);
+			path = "View Models";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -166,6 +177,7 @@
 				B8F50A652613590D00175B00 /* Order.swift in Sources */,
 				B8F50A56261357EB00175B00 /* ContentView.swift in Sources */,
 				B8F50A54261357EB00175B00 /* KofiApp.swift in Sources */,
+				B8F50A7226135F1900175B00 /* OrderListViewModel.swift in Sources */,
 				B8F50A6E26135B5000175B00 /* WebService.swift in Sources */,
 				B8F50A692613594500175B00 /* Coffee.swift in Sources */,
 			);
