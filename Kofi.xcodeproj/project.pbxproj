@@ -13,6 +13,7 @@
 		B8F50A5B261357EE00175B00 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B8F50A5A261357EE00175B00 /* Preview Assets.xcassets */; };
 		B8F50A652613590D00175B00 /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8F50A642613590D00175B00 /* Order.swift */; };
 		B8F50A692613594500175B00 /* Coffee.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8F50A682613594500175B00 /* Coffee.swift */; };
+		B8F50A6E26135B5000175B00 /* WebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8F50A6D26135B5000175B00 /* WebService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		B8F50A5C261357EE00175B00 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B8F50A642613590D00175B00 /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
 		B8F50A682613594500175B00 /* Coffee.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coffee.swift; sourceTree = "<group>"; };
+		B8F50A6D26135B5000175B00 /* WebService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		B8F50A52261357EB00175B00 /* Kofi */ = {
 			isa = PBXGroup;
 			children = (
+				B8F50A6C26135B4000175B00 /* Services */,
 				B8F50A632613590300175B00 /* Models */,
 				B8F50A53261357EB00175B00 /* KofiApp.swift */,
 				B8F50A55261357EB00175B00 /* ContentView.swift */,
@@ -81,6 +84,14 @@
 				B8F50A682613594500175B00 /* Coffee.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		B8F50A6C26135B4000175B00 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				B8F50A6D26135B5000175B00 /* WebService.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -155,6 +166,7 @@
 				B8F50A652613590D00175B00 /* Order.swift in Sources */,
 				B8F50A56261357EB00175B00 /* ContentView.swift in Sources */,
 				B8F50A54261357EB00175B00 /* KofiApp.swift in Sources */,
+				B8F50A6E26135B5000175B00 /* WebService.swift in Sources */,
 				B8F50A692613594500175B00 /* Coffee.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
