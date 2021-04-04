@@ -11,7 +11,7 @@ class OrderListViewModel: ObservableObject {
     @Published var orders = [OrderViewModel]()
     
     init() {
-        fetchOrders()
+         fetchOrders()
     }
     
     func fetchOrders() {
@@ -35,7 +35,7 @@ class OrderViewModel {
         return self.order.name
     }
     
-    var size: Double {
+    var size: String {
         return self.order.size
     }
     

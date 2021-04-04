@@ -14,25 +14,28 @@ struct OrderListView: View {
         self.orders = orders
     }
     
+    let imageSize: CGFloat = 100
+    let basePadding: CGFloat = 10
+    
     var body: some View {
         List {
             ForEach(orders, id: \.id) { order in
                 HStack {
                     Image(order.coffeeName)
                         .resizable()
-                        .frame(width: 100, height: 100)
+                        .frame(width: imageSize, height: imageSize)
                         .cornerRadius(16)
                     VStack {
                         Text(order.name)
                             .font(.title)
-                            .padding([.leading, .bottom], 10)
+                            .padding([.leading, .bottom], basePadding)
                         
                         HStack {
                             Text(order.coffeeName)
-                                .padding(10)
+                                .padding(basePadding)
                                 .background(Color.gray)
                                 .foregroundColor(.white)
-                                .cornerRadius(10)
+                                .cornerRadius(basePadding)
                         }
                     }
                 }
@@ -49,9 +52,9 @@ struct OrderListView_Previews: PreviewProvider {
                     OrderViewModel(
                         order: Order(
                             name: "Mary",
-                            coffeeName: "Flat white",
+                            coffeeName: "Cappuccino",
                             total: 3.5,
-                            size: 2
+                            size: "medium"
                         )
                     )
                 ]

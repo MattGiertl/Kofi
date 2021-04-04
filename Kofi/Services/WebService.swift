@@ -8,7 +8,7 @@
 import Foundation
 
 class WebService {
-    let apiURL = "https://fragrant-sugary-existence.glitch.me"
+    let apiURL = "https://kofee.glitch.me"
     
     func getAllOrders(completion: @escaping ([Order]?) -> ()) {
         // create the URL
